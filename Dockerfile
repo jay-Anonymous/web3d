@@ -1,5 +1,5 @@
 # Start with the official Node.js Docker image
-FROM node:latest
+FROM node:25.6.0-bookworm
 
 # Set the working directory
 WORKDIR /app
